@@ -4,7 +4,8 @@ import pandas as pd
 
 # Conexión a la base de datos SQLite
 def get_connection():
-    conn = sqlite3.connect(r'C:\Users\daniela rocio\datos.db')
+    
+    conn = sqlite3.connect('datos.db')
     return conn
 
 # Función para consultar la base de datos según los filtros
