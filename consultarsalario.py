@@ -12,7 +12,7 @@ def get_connection():
 def consulta_bd(NOMBRE, EMPLEADO):
     conn = get_connection()
     query = """
-    SELECT * FROM nombre_de_la_tabla
+    SELECT * FROM lempa8
     WHERE NOMBRE LIKE ? AND EMPLEADO LIKE ?
     """
     # Parámetros para la consulta SQL
